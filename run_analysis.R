@@ -25,3 +25,8 @@ activityName <- dsLabels[,2]
 dirty_ds[,1] <- activityName[dirty_ds[,1]]
 colnames(dirty_ds)[1] <- 'Activity'
 
+#create tidy dataset with average of each function grouping by activity
+tidy_ds <- dirty_ds %>% group_by(Activity) %>% summarise_each(funs(mean))
+
+#write tidy dataset to file
+write.table(tidy_ds, "tidy_data.txt", row.names = FALSE)

@@ -7,6 +7,8 @@ __Activity__
 
 Text description of the activity type
 
+Values: 
+
 1. WALKING 
 2. WALKING_UPSTAIRS 
 3. WALKING_DOWNSTAIRS 
@@ -16,6 +18,8 @@ Text description of the activity type
 
 
 __tBodyAcc__ 
+
+Number average of the following fields grouped by activity 
 
 * tBodyAcc-mean()-X 
 * tBodyAcc-mean()-Y 
@@ -27,6 +31,8 @@ __tBodyAcc__
 
 __tGravityAcc__ 
 
+Number average of the following fields grouped by activity 
+
 * tGravityAcc-mean()-X 
 * tGravityAcc-mean()-Y 
 * tGravityAcc-mean()-Z 
@@ -36,6 +42,8 @@ __tGravityAcc__
 
 
 __tBodyAccJerk__
+
+Number average of the following fields grouped by activity 
 
 * tBodyAccJerk-mean()-X 
 * tBodyAccJerk-mean()-Y 
@@ -47,15 +55,19 @@ __tBodyAccJerk__
 
 __tBodyGyro__
 
+Number average of the following fields grouped by activity 
+
 * tBodyGyro-mean()-X 
 * tBodyGyro-mean()-Y 
 * tBodyGyro-mean()-Z 
 * tBodyGyro-std()-X 
 * tBodyGyro-std()-Y 
-vtBodyGyro-std()-Z 
+* vtBodyGyro-std()-Z 
 
 
 __tBodyGyroJerk__
+
+Number average of the following fields grouped by activity 
 
 * tBodyGyroJerk-mean()-X 
 * tBodyGyroJerk-mean()-Y 
@@ -67,11 +79,15 @@ __tBodyGyroJerk__
 
 __tBodyAccMag__
 
+Number average of the following fields grouped by activity 
+
 * tBodyAccMag-mean()
 * tBodyAccMag-std()
 
 
 __tGravityAccMag__
+
+Number average of the following fields grouped by activity 
 
 * tGravityAccMag-mean()
 * tGravityAccMag-std()
@@ -79,11 +95,15 @@ __tGravityAccMag__
 
 __tBodyAccJerkMag__
 
+Number average of the following fields grouped by activity 
+
 * tBodyAccJerkMag-mean() 
 * tBodyAccJerkMag-std() 
 
 
 __tBodyGyroMag__
+
+Number average of the following fields grouped by activity 
 
 * tBodyGyroMag-mean() 
 * tBodyGyroMag-std() 
@@ -91,11 +111,15 @@ __tBodyGyroMag__
 
 __tBodyGyroJerkMag__ 
 
+Number average of the following fields grouped by activity 
+
 * tBodyGyroJerkMag-mean() 
 * tBodyGyroJerkMag-std() 
 
 
 __fBodyAcc__ 
+
+Number average of the following fields grouped by activity 
 
 * fBodyAcc-mean()-X 
 * fBodyAcc-mean()-Y 
@@ -107,6 +131,8 @@ __fBodyAcc__
 
 __fBodyAccJerk__ 
 
+Number average of the following fields grouped by activity 
+
 * fBodyAccJerk-mean()-X 
 * fBodyAccJerk-mean()-Y 
 * fBodyAccJerk-mean()-Z 
@@ -116,6 +142,8 @@ __fBodyAccJerk__
 
 
 __fBodyGyro__ 
+
+Number average of the following fields grouped by activity 
 
 * fBodyGyro-mean()-X 
 * fBodyGyro-mean()-Y 
@@ -127,11 +155,15 @@ __fBodyGyro__
 
 __fBodyAccMag__ 
 
+Number average of the following fields grouped by activity 
+
 * fBodyAccMag-mean() 
 * fBodyAccMag-std() 
 
 
 __fBodyBodyAccJerkMag__ 
+
+Number average of the following fields grouped by activity 
 
 * fBodyBodyAccJerkMag-mean() 
 * fBodyBodyAccJerkMag-std()  
@@ -139,11 +171,15 @@ __fBodyBodyAccJerkMag__
 
 __fBodyBodyGyroMag__ 
 
+Number average of the following fields grouped by activity 
+
 * fBodyBodyGyroMag-mean() 
 * fBodyBodyGyroMag-std() 
 
 
 __fBodyBodyGyroJerkMag__ 
+
+Number average of the following fields grouped by activity 
 
 * fBodyBodyGyroJerkMag-mean() 
 * fBodyBodyGyroJerkMag-std() 
